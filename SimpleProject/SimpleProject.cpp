@@ -58,7 +58,7 @@ void update(int idSearch) {
             cin >> major[i];
             cout << "Data is Updated ...";
             cout << "\n===================\n";
-            return; // Exit after updating
+            break;
         }
     }
     cout << "The Student not Found ...!\n\n";
@@ -76,7 +76,7 @@ void search(int idSearch) {
             cout << "AGE      : " << age[i] << endl;
             cout << "Major    : " << major[i] << endl;
             cout << "\n===================\n";
-            return; // Exit after finding
+            break;
         }
     }
     cout << "The Student not Found ...!\n\n";
